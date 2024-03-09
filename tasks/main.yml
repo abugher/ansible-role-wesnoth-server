@@ -1,3 +1,3 @@
 ---
-- include:              '../tasks/install_packages.yml'
-- include:              '../tasks/start_services.yml'
+- include_tasks:        '../tasks/install_packages.yml'
+- include_tasks:        '../tasks/start_services.yml'
