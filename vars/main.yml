@@ -1,6 +1,6 @@
 ---
 # Version number is part of package name and service name.
-wesnoth_version:                '1.16'
+wesnoth_version:                '1.18'
 wesnoth_server:                 "wesnoth-{{ wesnoth_version }}-server"
 install_packages:
   - "{{ wesnoth_server }}"
